@@ -353,6 +353,11 @@ p {
   justify-content: center;
 }
 
+.gallery__title {
+  display: none;
+  visibility: none;
+}
+
 .gallery__image {
   min-width: 187px;
   min-height: 187px;
@@ -466,7 +471,8 @@ p {
 
   .header {
     position: absolute;
-    max-width: 1920px;
+    width: 100%;
+    left: right 0;
     padding: 2.85rem;
   }
 
