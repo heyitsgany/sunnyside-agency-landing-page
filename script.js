@@ -19,4 +19,8 @@ navMenu.addEventListener("click", function (clickEvent) {
 
 function toggleMenu() {
   navMenu.classList.toggle("open");
+  navToggle.setAttribute(
+    "aria-expanded",
+    navToggle.getAttribute("aria-expanded") === "false" ? "true" : "false"
+  );
 }

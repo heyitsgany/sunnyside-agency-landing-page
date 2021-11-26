@@ -17,10 +17,16 @@
   <body>
     <header class="header">
       <img src="./images/logo.svg" alt="sunnyside logo" class="header__logo" />
-      <button class="nav__toggle">
+      <button
+        class="nav__toggle"
+        type="button"
+        aria-label="Menu"
+        aria-expanded="false"
+      >
         <img
           src="./images/icon-hamburger.svg"
           alt="navigation menu"
+          aria-hidden="true"
           class="nav__toggle--image"
         />
       </button>
